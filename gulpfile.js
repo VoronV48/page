@@ -3,8 +3,8 @@ var browserSync = require('browser-sync').create();
 var pug = require('gulp-pug');
 var sass = require('gulp-sass');
 var spritesmith = require('gulp.spritesmith');
-var rimraf = require('rimraf')
-var rename = require('gulp-rename')
+var rimraf = require('rimraf');
+var rename = require('gulp-rename');
 /*------------server-------------*/
 
 gulp.task('server', function() {
@@ -30,9 +30,9 @@ gulp.task('templates:compile', function buildHTML() {
 });
 /*-------style compite----------*/ 
 
-gulp.task('sass', function () {
+gulp.task('styles:compile', function () {
     return gulp.src('source/styles/main.scss')
-      .pipe(sass().on('error', sass.logError))
+      .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
       .pipe(rename('main.min.scss'))
       .pipe(gulp.dest('.build/css'));
 });
