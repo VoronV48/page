@@ -2,14 +2,23 @@ header.header
     .header-top
         .container
             .contacts
-                a.contact(href="tel:+0312-339-163")
-                    i.fa.fa-mobile(aria-hidden="true")
+                a.contact(href="#")
+                    i.fas.fa-mobile-alt(aria-hidden="true")
                     span.contact-text 312339163
                 a.contact(href="#")
-                    i.fa.fa-envelipe.contact__icon.contact__icon--email(aria-hidden="true")
+                    i.fas.fa-envelope(aria-hidden="true")
                     span.contact__text Dragon-of-fire@mail.com
-                a.facebook-icon(href="facebook.com")    
-                    i.fa.fa-faccebook(aria-hidden)    
+                a.facebook-icon(href="https://www.facebook.com/")    
+                    i.fab.fa-facebook-f(aria-hidden="true")    
     .container                
     .header-bottom
-        .logo: img.logo__picture(src="images" alt="picture")
+        .logo: img.logo__picture(src="../images/logo.png" alt="picture")
+        nav.nav
+        - var items = ["Home", "About Us", "Our Approch", "Our Work"]
+          each item in items 
+            a.nav__link(href="#")  
+                if item === "Home"
+                    a.nav__link.nav__link--active(href="#")= item
+                else
+                    a.nav__link(href="#")= item
+        a.button.header.button.button--red(href="#") Free Consultation            
