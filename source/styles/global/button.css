@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 10px 22px 7px;
+  text-decoration: none; }
+  .button--red {
+    background: #de2B24;
+    color: #fff;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+    .button--red:hover {
+      background: #e34943; }
+  .button--yellow {
+    background: #f8cd53; }
+    .button--yellow:hover {
+      background: #f9d775; }
+  .button--text-uppercase {
+    text-transform: uppercase; }
