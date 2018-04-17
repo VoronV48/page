@@ -2775,7 +2775,7 @@ ul, ol {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 41px 0 32px; }
+  padding: 20px 0 32px; }
 
 .contacts {
   text-align: right; }
@@ -2836,3 +2836,24 @@ ul, ol {
       margin-left: 15px;
       border-radius: 50%;
       background-color: #424242; }
+
+.hero {
+  min-height: 59px;
+  padding: 174px 0;
+  text-align: center;
+  color: #fff;
+  background: #ccc url("../images/hero-bg.png") center/cover no-repeat; }
+  .hero__about {
+    font-family: "helvetica-neue-bold";
+    font-size: 3rem;
+    line-height: 1; }
+  .hero__title {
+    margin-top: 0;
+    margin-bottom: 27px;
+    font-family: "helvetica-neue-light"; }
+  .hero .button--text-uppercase {
+    padding: 21px 41px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px; }
