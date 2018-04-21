@@ -1,23 +1,7 @@
-@font-face {
-  font-family: "georgia-bold";
-  src: url("../fonts/Georgia_Bold.ttf") format("ttf");
-  font-weight: bold;
-  font-style: normal; }
+@font-face { font-family: "georgia-bold"; src: url("../fonts/Georgia_Bold.ttf") format("ttf"); font-weight: bold; font-style: normal; }
 
-@font-face {
-  font-family: "helvetica-neue-bold";
-  src: url("../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
+@font-face { font-family: "helvetica-neue-bold"; src: url("../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.woff") format("woff"); font-weight: bold; font-style: normal; }
 
-@font-face {
-  font-family: "helvetica-neue-light";
-  src: url("../fonts/HelveticaNeue-Light/HelveticaNeue-Light.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+@font-face { font-family: "helvetica-neue-light"; src: url("../fonts/HelveticaNeue-Light/HelveticaNeue-Light.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face {
-  font-family: "helvetica-neue-regular";
-  src: url("../fonts/HelveticaNeue/HelveticaNeue.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+@font-face { font-family: "helvetica-neue-regular"; src: url("../fonts/HelveticaNeue/HelveticaNeue.woff") format("woff"); font-weight: normal; font-style: normal; }

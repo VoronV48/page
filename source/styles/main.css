@@ -2908,3 +2908,79 @@ ul, ol {
     font-size: 0.875rem;
     line-height: 1.5;
     color: #5c5c5c; }
+
+.approach {
+  padding: 86px 0 94px;
+  background-color: #f3f3f3; }
+  .approach__list {
+    margin: 0;
+    padding: 0;
+    counter-reset: count; }
+  .approach__item {
+    margin-bottom: 40px;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px -1px 10px 1px #d6d6d6;
+    box-shadow: -1px -1px 10px 1px #d6d6d6;
+    color: #424242;
+    background: #fff; }
+    .approach__item:nth-child(2n) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+      text-align: right; }
+      .approach__item:nth-child(2n) .approach__text {
+        padding: 70px 90px; }
+      .approach__item:nth-child(2n) .approach__step {
+        right: auto;
+        left: -52px; }
+  .approach__image {
+    position: relative;
+    max-width: 340px;
+    max-height: 236px;
+    display: inline-block;
+    vertical-align: top; }
+  .approach__picture {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .approach__text {
+    display: inline-block;
+    vertical-align: top;
+    width: 64%;
+    padding: 70px 70px 55px 90px;
+    font-size: 0.875rem; }
+  .approach__step {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: -58px;
+    width: 103px;
+    height: 103px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: #de2b24;
+    color: #fff; }
+    .approach__step:before {
+      content: counter(count);
+      counter-increment: count;
+      display: block;
+      font-family: "georgia-bold";
+      font-size: 3rem;
+      line-height: 1;
+      color: #fff; }
+  .approach__title {
+    margin-bottom: 6px;
+    font-size: 1.125rem;
+    font-family: "helvetica-neue-bold"; }
+  .approach__description {
+    margin: 0;
+    line-height: 1.5; }
