@@ -2984,3 +2984,44 @@ ul, ol {
   .approach__description {
     margin: 0;
     line-height: 1.5; }
+
+.work {
+  padding: 110px 0;
+  background-color: #de2b24;
+  color: #fff; }
+  .work__list {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .work .title--with-bottom-line:after {
+    background: #fff; }
+  .work__item {
+    width: 256px;
+    height: 256px;
+    font-weight: bold;
+    color: #fff;
+    background: #f35e59; }
+    .work__item--name {
+      position: relative;
+      padding: 130px 40px 75px 40px;
+      text-align: center; }
+  .work__img {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 74px; }
+  .work__name {
+    font-size: 1.625rem; }
+  .work__picture {
+    width: 100%;
+    height: 100%; }
+  .work__description {
+    font-size: 1rem; }
